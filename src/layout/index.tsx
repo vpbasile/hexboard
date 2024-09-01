@@ -1,7 +1,7 @@
 import { Box } from '@chakra-ui/react'
-import SandboxHeader from './sandboxHeader'
-import SandboxFooter from './sandboxFooter'
 import { Outlet } from 'react-router-dom'
+import SandboxFooter from './sandboxFooter'
+import SandboxHeader from './sandboxHeader'
 
 export default function Layout() {
 
